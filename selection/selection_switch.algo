@@ -1,0 +1,19 @@
+// print the opening hour of a zoo according to season
+// 1 is winter, 2 is spring, 3 is summer, 4 is autumn
+
+SWITCH (x) DO
+    case 1 : Write('10hoo to 16hoo') BREAK;
+    case 2 : Write('10hoo to 18hoo') BREAK;
+    case 3 : Write('10hoo to 20hoo') BREAK;
+    case 4 : Write('10hoo to 16hoo') BREAK;
+    default : 'wrong number' 
+END_SWITCH
+
+// 2nd version
+SWITCH (x) DO
+    case 1 : 
+    case 4 : Write('10hoo to 16hoo') BREAK;
+    case 2 : Write('10hoo to 18hoo') BREAK;
+    case 3 : Write('10hoo to 20hoo') BREAK;
+    default : 'wrong number'
+END_SWITCH

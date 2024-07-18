@@ -1,0 +1,10 @@
+// code executes at least once then reads condition and executes again if true,if false it exits the loop
+
+// age from user, age > 0
+age : INTEGER;
+
+REPEAT
+    read(age)
+UNTIL (age <= 0)
+
+write(age)
